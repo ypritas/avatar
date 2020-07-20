@@ -1,0 +1,12 @@
+
+
+entity UserAvatar {
+    name String required,
+    description TextBlob,
+    avatar ImageBlob required,
+    uploaded Instant
+}
+
+relationship OneToOne {
+    UserAvatar{user(login)} to User, 
+}

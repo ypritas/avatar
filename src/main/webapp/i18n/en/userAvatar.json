@@ -1,0 +1,26 @@
+{
+  "avatarApp": {
+    "userAvatar": {
+      "home": {
+        "title": "User Avatars",
+        "createLabel": "Create a new User Avatar",
+        "createOrEditLabel": "Create or edit a User Avatar",
+        "notFound": "No User Avatars found"
+      },
+      "created": "A new User Avatar is created with identifier {{ param }}",
+      "updated": "A User Avatar is updated with identifier {{ param }}",
+      "deleted": "A User Avatar is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Avatar {{ id }}?"
+      },
+      "detail": {
+        "title": "User Avatar"
+      },
+      "name": "Name",
+      "description": "Description",
+      "avatar": "Avatar",
+      "uploaded": "Uploaded",
+      "user": "User"
+    }
+  }
+}
